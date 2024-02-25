@@ -1,6 +1,6 @@
 'use client'
 import { motion } from 'framer-motion'
-// import dynamic from 'next/dynamic'
+import dynamic from 'next/dynamic'
 import Link from 'next/link'
 import MailIcon from '@mui/icons-material/Mail'
 import CallIcon from '@mui/icons-material/Call'
@@ -22,7 +22,7 @@ const socials = [
   { icon: <GitHubIcon />, url: 'https://github.com/xhawn7', tip: 'github' }
 ]
 
-// const ThemeChanger = dynamic(() => import('./ThemeChanger'), { ssr: false })
+const ThemeChanger = dynamic(() => import('./ThemeChanger'), { ssr: false })
 
 export default function Header() {
   return (
@@ -68,8 +68,7 @@ export default function Header() {
         }}
         className="flex flex-row items-center cursor-pointer"
       >
-        {/* <ThemeChanger /> */}
-        123
+        <ThemeChanger />
       </motion.div>
     </header>
   )

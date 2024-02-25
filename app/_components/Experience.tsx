@@ -1,6 +1,5 @@
 'use client'
 import React from 'react'
-import { Experience } from '@/typings'
 import { Chrono } from 'react-chrono'
 import ComponentsWrapper from './ComponentsWrapper'
 
@@ -70,7 +69,8 @@ export default function Experience() {
     <section className="snap-center" id="experience">
       <ComponentsWrapper title="小经历" cls="xl:pt-4">
         <div className="hidden md:block mt--20">
-          <Chrono
+          234
+          {/* <Chrono
             items={items}
             mode="VERTICAL_ALTERNATING"
             timelinePointShape="square"
@@ -94,10 +94,11 @@ export default function Experience() {
               <div>👨‍💻</div>
               <div>👨‍💻</div>
             </div>
-          </Chrono>
+          </Chrono> */}
         </div>
         <div className="md:hidden block">
-          <Chrono
+          123
+          {/* <Chrono
             items={items}
             mode="HORIZONTAL"
             itemWidth={200}
@@ -118,7 +119,7 @@ export default function Experience() {
               <div>👨‍💻</div>
               <div>👨‍💻</div>
             </div>
-          </Chrono>
+          </Chrono> */}
         </div>
       </ComponentsWrapper>
     </section>

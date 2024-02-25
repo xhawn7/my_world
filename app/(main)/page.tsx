@@ -2,7 +2,7 @@
 import Header from '../_components/Header'
 import Hero from '../_components/Hero'
 import About from '../_components/About'
-import Experience from '../_components/Experience'
+// import Experience from '../_components/Experience'
 import Skills from '../_components/Skills'
 import Projects from '../_components/Projects'
 import ScrollToTop from '../_components/ScrollToTop'
@@ -14,7 +14,7 @@ export default function Home() {
       <Header />
       <Hero />
       <About />
-      <Experience />
+      {/* <Experience /> */}
       <Skills />
       <Projects />
       <ScrollToTop />
