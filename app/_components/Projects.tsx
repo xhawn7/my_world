@@ -21,10 +21,10 @@ export default function Projects() {
         title="DEMOS"
         cls="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8 "
       >
-        {projects.map((project) => (
-          <ul className="space-y-8">
-            {project.map((item) => (
-              <Project item={item} />
+        {projects.map((project, index) => (
+          <ul className="space-y-8" key={index}>
+            {project.map((item, itemIndex) => (
+              <Project item={item} key={`item_${itemIndex}`} />
             ))}
           </ul>
         ))}

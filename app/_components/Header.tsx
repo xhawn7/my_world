@@ -43,9 +43,9 @@ export default function Header() {
         }}
         className=" flex flex-row items-center gap-5 "
       >
-        {socials.map((social) => {
+        {socials.map((social, index) => {
           return (
-            <Link href={social.url} target="_blank">
+            <Link href={social.url} target="_blank" key={index}>
               <Tooltip title={social?.tip}>{social.icon}</Tooltip>
             </Link>
           )
