@@ -110,8 +110,8 @@ export default function Experience() {
         </div>
         <div className="md:hidden block">
           <ol className="relative border-s border-darkGreen dark:border-lightGreen">
-            {items.map((item) => (
-              <ExperienceCard item={item} />
+            {items.map((item, index) => (
+              <ExperienceCard item={item} key={index} />
             ))}
           </ol>
         </div>
