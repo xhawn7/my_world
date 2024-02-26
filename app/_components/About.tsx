@@ -18,27 +18,29 @@ export default function About() {
   return (
     <section className="snap-center" id="about">
       <ComponentsWrapper title="关于我">
-        <ReactTerminal
-          commands={commands}
-          themes={{
-            'my-custom-theme': {
-              themeBGColor: '#272B36',
-              themeToolbarColor: '#DBDBDB',
-              themeColor: '#FFFEFC',
-              themePromptColor: '#a917a8'
+        <div className="h-[80%] md:h-full">
+          <ReactTerminal
+            commands={commands}
+            themes={{
+              'my-custom-theme': {
+                themeBGColor: '#272B36',
+                themeToolbarColor: '#DBDBDB',
+                themeColor: '#FFFEFC',
+                themePromptColor: '#a917a8'
+              }
+            }}
+            theme="my-custom-theme"
+            welcomeMessage={
+              <div>
+                <p>👋 宝宝好，欢迎来到我的小世界!</p>
+                <p>
+                  关于我你有什么想知道的呢?请用2个字母描述你的问题,比如星座请输入xz,年龄请输入nn,三围请输入sw😆
+                </p>
+              </div>
             }
-          }}
-          theme="my-custom-theme"
-          welcomeMessage={
-            <div>
-              <p>👋 宝宝好，欢迎来到我的小世界!</p>
-              <p>
-                关于我你有什么想知道的呢?请用2个字母描述你的问题,比如星座请输入xz,年龄请输入nn,三围请输入sw😆
-              </p>
-            </div>
-          }
-          errorMessage="这个指令还没有录入, 欢迎直接拨打冷线电话139-2383-6438咨询。"
-        />
+            errorMessage="这个指令还没有录入, 欢迎直接拨打冷线电话139-2383-6438咨询。"
+          />
+        </div>
       </ComponentsWrapper>
     </section>
   )

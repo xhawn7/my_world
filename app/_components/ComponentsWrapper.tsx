@@ -35,7 +35,6 @@ const ComponentsWrapper = ({
             opacity: 1
           }}
           viewport={{ once: true }}
-          // className="overflow-scroll flex-1 w-full px-8 py-6 md:px-60 md:pb-40 md:pt-14 "
           className={twMerge(
             'overflow-scroll flex-1 w-full px-8 py-6 xl:px-60 xl:pb-40 xl:pt-14',
             cls

@@ -25,7 +25,7 @@ export const skills = [
     alt: 'node'
   },
   {
-    url: 'https://miro.medium.com/v2/resize:fit:1200/1*y6C4nSvy2Woe0m7bWEn4BA.png',
+    url: 'https://img2.baidu.com/it/u=3730348084,4119932554&fm=253&fmt=auto&app=138&f=GIF?w=500&h=248',
     progress: '熟练',
     alt: 'react'
   },

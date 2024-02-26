@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 type ProjectProps = {
@@ -17,7 +18,7 @@ const Project = ({ item }: ProjectProps) => {
         <a href={item.url} className="cursor-pointer" target="_blank">
           <div className="relative p-6 space-y-6 leading-none rounded-lg dark:bg-darkBlack bg-lightWhite ">
             <div className="flex items-center space-x-4">
-              <img
+              <Image
                 src={item.icon}
                 className="w-12 h-12 bg-center bg-cover border rounded-full"
                 alt="trello"
