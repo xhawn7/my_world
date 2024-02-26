@@ -67,10 +67,9 @@ export default function Experience() {
 
   return (
     <section className="snap-center" id="experience">
-      <ComponentsWrapper title="小经历" cls="xl:pt-4">
+      <ComponentsWrapper title="小经历" cls="xl:pt-4 bg-red-200">
         <div className="hidden md:block mt--20">
-          234
-          {/* <Chrono
+          <Chrono
             items={items}
             mode="VERTICAL_ALTERNATING"
             timelinePointShape="square"
@@ -94,11 +93,10 @@ export default function Experience() {
               <div>👨‍💻</div>
               <div>👨‍💻</div>
             </div>
-          </Chrono> */}
+          </Chrono>
         </div>
         <div className="md:hidden block">
-          123
-          {/* <Chrono
+          <Chrono
             items={items}
             mode="HORIZONTAL"
             itemWidth={200}
@@ -119,7 +117,7 @@ export default function Experience() {
               <div>👨‍💻</div>
               <div>👨‍💻</div>
             </div>
-          </Chrono> */}
+          </Chrono>
         </div>
       </ComponentsWrapper>
     </section>
