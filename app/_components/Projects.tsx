@@ -6,7 +6,7 @@ import taskify from '../../public/taskify.svg'
 import toDoIcon from '../../public/7todos.png'
 import me from '../../public/images.jpeg'
 import studyRoomIcon from '../../public/study-room.svg'
-
+import NFS from '../../public/NFS.png'
 const projects = [
   [
     {
@@ -32,6 +32,13 @@ const projects = [
       props/useContext/HOC/Mobx/redux-thunk/redux-toolkit/zustand，同样实现一个GTD，用这7款状态管理代码对比`,
       url: 'https://7-todos.vercel.app/',
       icon: toDoIcon
+    },
+    {
+      title: 'NFS',
+      subTitle: 'JavaScript',
+      describe: `用原生js写的一些小玩意`,
+      url: 'https://my-js-eight.vercel.app/',
+      icon: NFS
     }
   ],
   [
